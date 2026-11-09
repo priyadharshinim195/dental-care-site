@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://ajitha-clinic-api.onrender.com/api/:path*"
+      "destination": "https://dental-care-site.onrender.com/api/:path*"
     },
     {
       "source": "/media/:path*",
-      "destination": "https://ajitha-clinic-api.onrender.com/media/:path*"
+      "destination": "https://dental-care-site.onrender.com/media/:path*"
     },
     {
       "source": "/admin",
