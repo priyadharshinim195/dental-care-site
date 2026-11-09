@@ -98,7 +98,9 @@ LANGUAGE_CODE = "en-us"
 TIME_ZONE = "Asia/Kolkata"
 USE_I18N = True
 USE_TZ = True
-
+FRONTEND_DIST = BASE_DIR.parent / "frontend" / "dist"
+# WhiteNoise serves the built React files (/assets/..., /images/...) from the site root.
+WHITENOISE_ROOT = FRONTEND_DIST
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 MEDIA_URL = "/media/"
